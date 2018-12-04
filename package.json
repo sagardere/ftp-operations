@@ -1,0 +1,27 @@
+{
+  "name": "ftp-operations",
+  "version": "1.0.0",
+  "description": "Demonstration of FTP server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagardere/ftp-operations.git"
+  },
+  "keywords": [
+    "ftp",
+    "node-ftp"
+  ],
+  "author": "Dere Sagar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagardere/ftp-operations/issues"
+  },
+  "homepage": "https://github.com/sagardere/ftp-operations",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "ftp": "^0.3.10"
+  }
+}

@@ -1,0 +1,23 @@
+// connect using localhost ftp server
+	$ ftp localhost 21 
+	-> port no 21
+
+// find local directory	
+	$ lcd
+
+// find server directory	
+	$ pwd
+
+//create directory
+	$ mkdir dir_name
+
+// list of all commands
+	$ help
+
+c.connect({
+    host: "localhost",
+    port: 21, // defaults to 21
+    user: "sagar", // defaults to "anonymous"
+    password: "Sagar123" // defaults to "@anonymous"
+
+});
